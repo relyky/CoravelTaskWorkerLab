@@ -14,6 +14,7 @@ IHost host = Host.CreateDefaultBuilder(args)
     {
         services.AddHostedService<Worker>();
     })
+    .UseWindowsService()
     .Build();
 
 await host.RunAsync();
