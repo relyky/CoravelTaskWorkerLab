@@ -1,5 +1,8 @@
 # CoravelTaskWorkerLab
 WorkerService + Serilog + WindowsService + Coravel   
+
+## 補充 on 2023-5-23
+剛發現也支援 Cron 排程了。
  
 ## Windows Service 工具指令紀錄
 #### 建立服務
